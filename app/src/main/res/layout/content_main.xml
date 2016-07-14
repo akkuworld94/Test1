@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.akshayyadav.testapp.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:weightSum="1">
+
+    <TextView
+        android:text="LOG IN"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#fefefe"
+        android:textSize="30dp" />
+
+
+    <EditText android:id="@+id/emailPhone2"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailPhone2"
+        android:fontFamily="@string/abc_font_family_body_1_material"
+        android:forceHasOverlappingRendering="false"
+        android:singleLine="false"
+        android:foregroundTint="#000000" />
+
+    <EditText android:password="true"
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password2"/>
+    
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#a4c955"
+        android:text="LOG IN"/>
+
+</LinearLayout>
