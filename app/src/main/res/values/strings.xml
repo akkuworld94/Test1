@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">YoYo CABS</string>
+    <string name="action_settings">Settings</string>
+    <string name="emailPhone2">email/phone</string>
+    <string name="password2">Password</string>
+    <string name="log_in">Log In</string>
+</resources>
